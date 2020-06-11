@@ -1,6 +1,0 @@
-export var CommentEntityTypeEnum;
-(function (CommentEntityTypeEnum) {
-    CommentEntityTypeEnum["Question"] = "QUESTION";
-    CommentEntityTypeEnum["Task"] = "TASK";
-})(CommentEntityTypeEnum || (CommentEntityTypeEnum = {}));
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tbWVudC1lbnRpdHktdHlwZS5lbnVtLmpzIiwic291cmNlUm9vdCI6Im5nOi8vdmVyaXRhcy1saWJyYXJ5LyIsInNvdXJjZXMiOlsibGliL2VudW1zL2NvbW1lbnQtZW50aXR5LXR5cGUuZW51bS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxNQUFNLENBQU4sSUFBWSxxQkFHWDtBQUhELFdBQVkscUJBQXFCO0lBQy9CLDhDQUFxQixDQUFBO0lBQ3JCLHNDQUFhLENBQUE7QUFDZixDQUFDLEVBSFcscUJBQXFCLEtBQXJCLHFCQUFxQixRQUdoQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBlbnVtIENvbW1lbnRFbnRpdHlUeXBlRW51bSB7XHJcbiAgUXVlc3Rpb24gPSAnUVVFU1RJT04nLFxyXG4gIFRhc2sgPSAnVEFTSydcclxufVxyXG4iXX0=

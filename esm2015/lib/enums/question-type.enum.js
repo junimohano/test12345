@@ -1,7 +1,0 @@
-export var QuestionTypeEnum;
-(function (QuestionTypeEnum) {
-    QuestionTypeEnum["SingleSelect"] = "SINGLE_SELECT";
-    QuestionTypeEnum["MultiSelect"] = "MULTI_SELECT";
-    QuestionTypeEnum["Text"] = "TEXT";
-})(QuestionTypeEnum || (QuestionTypeEnum = {}));
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicXVlc3Rpb24tdHlwZS5lbnVtLmpzIiwic291cmNlUm9vdCI6Im5nOi8vdmVyaXRhcy1saWJyYXJ5LyIsInNvdXJjZXMiOlsibGliL2VudW1zL3F1ZXN0aW9uLXR5cGUuZW51bS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxNQUFNLENBQU4sSUFBWSxnQkFJWDtBQUpELFdBQVksZ0JBQWdCO0lBQzFCLGtEQUE4QixDQUFBO0lBQzlCLGdEQUE0QixDQUFBO0lBQzVCLGlDQUFhLENBQUE7QUFDZixDQUFDLEVBSlcsZ0JBQWdCLEtBQWhCLGdCQUFnQixRQUkzQiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBlbnVtIFF1ZXN0aW9uVHlwZUVudW0ge1xyXG4gIFNpbmdsZVNlbGVjdCA9ICdTSU5HTEVfU0VMRUNUJyxcclxuICBNdWx0aVNlbGVjdCA9ICdNVUxUSV9TRUxFQ1QnLFxyXG4gIFRleHQgPSAnVEVYVCdcclxufVxyXG4iXX0=
