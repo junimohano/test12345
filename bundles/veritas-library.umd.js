@@ -55,21 +55,6 @@
         return InitialIndicatorModule;
     }());
 
-    // export * from './lib/components/comments-popover/index';
-    // export * from './lib/components/question/index';
-    // export * from './lib/components/question-accordion/index';
-    // export * from './lib/components/task-status-tag/index';
-    // export * from './lib/components/questionnaire-content/index';
-    // export * from './lib/components/questionnaire-content-modal/index';
-    // export * from './lib/constants/index';
-    // export * from './lib/enums/index';
-    // export * from './lib/interfaces/index';
-    // export * from './lib/models/index';
-    // export * from './lib/services/index';
-    // export * from './lib/change-detectable-component-base';
-    // export * from './lib/custom-encoder';
-    // export * from './lib/utils';
-
     /**
      * Generated bundle index. Do not edit.
      */
