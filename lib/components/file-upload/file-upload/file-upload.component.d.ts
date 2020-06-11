@@ -1,0 +1,38 @@
+import { ChangeDetectorRef, ElementRef, EventEmitter, OnInit } from '@angular/core';
+import { ControlValueAccessor } from '@angular/forms';
+import { ToastService } from '@trustarc/ui-toolkit';
+import { ChangeDetectableComponentBase } from '../../../change-detectable-component-base';
+import { FileUploadFormatConfig } from './file-upload.model';
+import { FileUploadValidationService } from './file-upload.validation.service';
+export declare class FileUploadComponent extends ChangeDetectableComponentBase implements OnInit, ControlValueAccessor {
+    protected changeDetectorRef: ChangeDetectorRef;
+    private fileUploadValidationService;
+    private toastService;
+    id: string;
+    prefixText: string;
+    linkText: string;
+    suffixText: string;
+    isMultiple: boolean;
+    formatConfig: FileUploadFormatConfig;
+    maxFileSize: number;
+    afterFilesSelected: EventEmitter<File[]>;
+    fileInput: ElementRef;
+    draggingOver: boolean;
+    allowedMime: string[];
+    files: File[];
+    private propagateChange;
+    constructor(changeDetectorRef: ChangeDetectorRef, fileUploadValidationService: FileUploadValidationService, toastService: ToastService);
+    ngOnInit(): void;
+    onDragOver(e: any): void;
+    onDragLeave(e: any): void;
+    selectFiles(files: File[]): void;
+    onDrop(event: any): void;
+    onFilesSelected(event: any): void;
+    openUploadBrowser(): void;
+    registerOnChange(fn: any): void;
+    registerOnTouched(): void;
+    writeValue(value: any): void;
+    private formatBytes;
+    private isValidFilesSize;
+    private getFilesSize;
+}

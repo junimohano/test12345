@@ -1,0 +1,7 @@
+var SimpleFileUploadItem = /** @class */ (function () {
+    function SimpleFileUploadItem() {
+    }
+    return SimpleFileUploadItem;
+}());
+export { SimpleFileUploadItem };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2ltcGxlLWZpbGUtdXBsb2FkLWl0ZW0ubW9kZWwuanMiLCJzb3VyY2VSb290Ijoibmc6Ly92ZXJpdGFzLXVpLWxpYnJhcnkvIiwic291cmNlcyI6WyJsaWIvY29tcG9uZW50cy9maWxlLXVwbG9hZC9zaW1wbGUtZmlsZS11cGxvYWQvc2ltcGxlLWZpbGUtdXBsb2FkLWl0ZW0ubW9kZWwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFBQTtJQUdBLENBQUM7SUFBRCwyQkFBQztBQUFELENBQUMsQUFIRCxJQUdDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIFNpbXBsZUZpbGVVcGxvYWRJdGVtIHtcclxuICBmaWxlOiBGaWxlO1xyXG4gIHRleHQ6IHN0cmluZztcclxufVxyXG4iXX0=

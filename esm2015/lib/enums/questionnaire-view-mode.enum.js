@@ -1,0 +1,7 @@
+export var QuestionnaireViewModeEnum;
+(function (QuestionnaireViewModeEnum) {
+    QuestionnaireViewModeEnum["All"] = "all";
+    QuestionnaireViewModeEnum["Answered"] = "answered";
+    QuestionnaireViewModeEnum["Unanswered"] = "unanswered";
+})(QuestionnaireViewModeEnum || (QuestionnaireViewModeEnum = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicXVlc3Rpb25uYWlyZS12aWV3LW1vZGUuZW51bS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL3Zlcml0YXMtdWktbGlicmFyeS8iLCJzb3VyY2VzIjpbImxpYi9lbnVtcy9xdWVzdGlvbm5haXJlLXZpZXctbW9kZS5lbnVtLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE1BQU0sQ0FBTixJQUFZLHlCQUlYO0FBSkQsV0FBWSx5QkFBeUI7SUFDbkMsd0NBQVcsQ0FBQTtJQUNYLGtEQUFxQixDQUFBO0lBQ3JCLHNEQUF5QixDQUFBO0FBQzNCLENBQUMsRUFKVyx5QkFBeUIsS0FBekIseUJBQXlCLFFBSXBDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGVudW0gUXVlc3Rpb25uYWlyZVZpZXdNb2RlRW51bSB7XHJcbiAgQWxsID0gJ2FsbCcsXHJcbiAgQW5zd2VyZWQgPSAnYW5zd2VyZWQnLFxyXG4gIFVuYW5zd2VyZWQgPSAndW5hbnN3ZXJlZCdcclxufVxyXG4iXX0=
