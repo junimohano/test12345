@@ -1,1 +1,1 @@
-export * from './lib/components/initial-indicator/index';
+export * from './lib/components/initial-indicator/initial-indicator.module';

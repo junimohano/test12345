@@ -59,8 +59,8 @@
      * Generated bundle index. Do not edit.
      */
 
+    exports.ɵa = InitialIndicatorComponent;
     exports.InitialIndicatorModule = InitialIndicatorModule;
-    exports.InitialIndicatorComponent = InitialIndicatorComponent;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 

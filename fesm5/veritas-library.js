@@ -56,6 +56,6 @@ var InitialIndicatorModule = /** @class */ (function () {
  * Generated bundle index. Do not edit.
  */
 
-export { InitialIndicatorModule, InitialIndicatorComponent };
+export { InitialIndicatorComponent as ɵa, InitialIndicatorModule };
 
 //# sourceMappingURL=veritas-library.js.map
