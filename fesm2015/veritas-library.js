@@ -1,20 +1,16 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input, NgModule } from '@angular/core';
-import 'lodash';
 
-function isPropertyChanged(simpleChange) {
-    return (simpleChange && simpleChange.previousValue !== simpleChange.currentValue);
-}
-
+// import { isPropertyChanged } from '../../utils';
 class InitialIndicatorComponent {
     constructor() {
         this.splitKey = ' ';
     }
     ngOnInit() { }
     ngOnChanges(changes) {
-        if (isPropertyChanged(changes.name)) {
-            this.setInitial();
-        }
+        // if (isPropertyChanged(changes.name)) {
+        this.setInitial();
+        // }
     }
     setInitial() {
         const nameSplits = this.name.split(this.splitKey);
@@ -52,12 +48,13 @@ InitialIndicatorModule.decorators = [
             },] }
 ];
 
-const PAGE_OFFSET_FOR_SERVER = -1;
-const SEARCH_DEBOUNCE_TIME = 300;
-
-const VERITAS_API_PROXY_PREFIX_URL = 'VERITAS_API_PROXY_PREFIX_URL';
-
 // export * from './lib/components/comments-popover/index';
+// export * from './lib/components/question/index';
+// export * from './lib/components/question-accordion/index';
+// export * from './lib/components/task-status-tag/index';
+// export * from './lib/components/questionnaire-content/index';
+// export * from './lib/components/questionnaire-content-modal/index';
+// export * from './lib/constants/index';
 // export * from './lib/enums/index';
 // export * from './lib/interfaces/index';
 // export * from './lib/models/index';
@@ -70,6 +67,6 @@ const VERITAS_API_PROXY_PREFIX_URL = 'VERITAS_API_PROXY_PREFIX_URL';
  * Generated bundle index. Do not edit.
  */
 
-export { InitialIndicatorModule, InitialIndicatorComponent, PAGE_OFFSET_FOR_SERVER, SEARCH_DEBOUNCE_TIME, VERITAS_API_PROXY_PREFIX_URL };
+export { InitialIndicatorModule, InitialIndicatorComponent };
 
 //# sourceMappingURL=veritas-library.js.map
